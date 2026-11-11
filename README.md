@@ -6,7 +6,9 @@
 
 ```text
 ├── figures/                         # Notebooks for generating manuscript figures
-│   └── figures.ipynb
+│   ├── Figure1.ipynb
+│   ├── Figure2.ipynb
+│   └── ...
 └── processing_scripts/              # Data processing and analysis scripts
     ├── 240-TF_scRNA-seq_screen/     # Initial 240-TF scRNA-seq screen
     └── 60-TF_Multiome_screen/       # Follow-up 60-TF single-cell multiome screen
