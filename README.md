@@ -8,7 +8,9 @@
 ├── figures/                         # Notebooks for generating manuscript figures
 │   ├── Figure1.ipynb
 │   ├── Figure2.ipynb
-│   └── ...
+│   ├── Figure3.ipynb
+│   └── load_packages.R              # Packages and helper functions used by the notebooks
+├── figure_data/                     # Small processed files read by the notebooks (see its README)
 └── processing_scripts/              # Data processing and analysis scripts
     ├── 240-TF_scRNA-seq_screen/     # Initial 240-TF scRNA-seq screen
     └── 60-TF_Multiome_screen/       # Follow-up 60-TF single-cell multiome screen
@@ -16,10 +18,11 @@
 
 ## What's in each directory
 
-- **`figures/`** – Jupyter notebook for generating the manuscript's main and supplemental figure panels.
+- **`figures/`** – Jupyter notebooks for generating the manuscript's main and supplemental figure panels.
+- **`figure_data/`** – Small processed files that let parts of the notebooks run without the full datasets. Each file is described in `figure_data/README.md`.
 - **`processing_scripts/240-TF_scRNA-seq_screen/`** – Scripts for processing and analyzing data from the initial pooled CRISPRa screen of 240 transcription factors using single-cell RNA-seq.
 - **`processing_scripts/60-TF_Multiome_screen/`** – Scripts for processing and analyzing data from the follow-up pooled CRISPRa screen of 60 transcription factors using joint single-cell RNA-seq and ATAC-seq.
 
-## Notes
+## Data availability
 
-Additional scripts and documentation will be added as files are organized and prepared for public release.
+Raw and processed data are available from GEO (GSE353547).
